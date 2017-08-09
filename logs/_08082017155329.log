@@ -1,0 +1,1400 @@
+#
+#		 Start Test :08-08-2017 15:53:29
+#		 Vendor : ARRISGroupInc 
+#		 Model : TG3442DE 
+#		 SW :  01.01.071.EURO 
+#################################################################################
+#
+#		 2.3.1.1 - ifTable IF-MIB (Docsis 2.0 and Docsis 3.0) Test : 
+#
+
+#
+#		 mactable : 
+#
+
+snmpwalk -v2c -c public 10.12.159.71 1.3.6.1.2.1.2.2.1.6.16
+IF-MIB::ifPhysAddress.16 = STRING: 78:23:ae:89:c1:f6
+
+#
+#		 ??? : 
+#
+
+snmpwalk -v2c -c public 10.12.159.71 1.3.6.1.2.1.2.2.1
+IF-MIB::ifIndex.1 = INTEGER: 1
+IF-MIB::ifIndex.2 = INTEGER: 2
+IF-MIB::ifIndex.3 = INTEGER: 3
+IF-MIB::ifIndex.4 = INTEGER: 4
+IF-MIB::ifIndex.16 = INTEGER: 16
+IF-MIB::ifIndex.48 = INTEGER: 48
+IF-MIB::ifIndex.49 = INTEGER: 49
+IF-MIB::ifIndex.50 = INTEGER: 50
+IF-MIB::ifIndex.51 = INTEGER: 51
+IF-MIB::ifIndex.52 = INTEGER: 52
+IF-MIB::ifIndex.53 = INTEGER: 53
+IF-MIB::ifIndex.54 = INTEGER: 54
+IF-MIB::ifIndex.55 = INTEGER: 55
+IF-MIB::ifIndex.56 = INTEGER: 56
+IF-MIB::ifIndex.57 = INTEGER: 57
+IF-MIB::ifIndex.58 = INTEGER: 58
+IF-MIB::ifIndex.59 = INTEGER: 59
+IF-MIB::ifIndex.60 = INTEGER: 60
+IF-MIB::ifIndex.61 = INTEGER: 61
+IF-MIB::ifIndex.62 = INTEGER: 62
+IF-MIB::ifIndex.63 = INTEGER: 63
+IF-MIB::ifIndex.64 = INTEGER: 64
+IF-MIB::ifIndex.65 = INTEGER: 65
+IF-MIB::ifIndex.66 = INTEGER: 66
+IF-MIB::ifIndex.67 = INTEGER: 67
+IF-MIB::ifIndex.68 = INTEGER: 68
+IF-MIB::ifIndex.69 = INTEGER: 69
+IF-MIB::ifIndex.70 = INTEGER: 70
+IF-MIB::ifIndex.80 = INTEGER: 80
+IF-MIB::ifIndex.81 = INTEGER: 81
+IF-MIB::ifIndex.82 = INTEGER: 82
+IF-MIB::ifDescr.1 = STRING: eRouter Embedded Interface
+IF-MIB::ifDescr.2 = STRING: RF MAC Interface
+IF-MIB::ifDescr.3 = STRING: RF Downstream Interface
+IF-MIB::ifDescr.4 = STRING: RF Upstream Interface
+IF-MIB::ifDescr.16 = STRING: PacketCable Embedded Interface
+IF-MIB::ifDescr.48 = STRING: RF Downstream Interface 1
+IF-MIB::ifDescr.49 = STRING: RF Downstream Interface 2
+IF-MIB::ifDescr.50 = STRING: RF Downstream Interface 3
+IF-MIB::ifDescr.51 = STRING: RF Downstream Interface 4
+IF-MIB::ifDescr.52 = STRING: RF Downstream Interface 5
+IF-MIB::ifDescr.53 = STRING: RF Downstream Interface 6
+IF-MIB::ifDescr.54 = STRING: RF Downstream Interface 7
+IF-MIB::ifDescr.55 = STRING: RF Downstream Interface 8
+IF-MIB::ifDescr.56 = STRING: RF Downstream Interface 9
+IF-MIB::ifDescr.57 = STRING: RF Downstream Interface 10
+IF-MIB::ifDescr.58 = STRING: RF Downstream Interface 11
+IF-MIB::ifDescr.59 = STRING: RF Downstream Interface 12
+IF-MIB::ifDescr.60 = STRING: RF Downstream Interface 13
+IF-MIB::ifDescr.61 = STRING: RF Downstream Interface 14
+IF-MIB::ifDescr.62 = STRING: RF Downstream Interface 15
+IF-MIB::ifDescr.63 = STRING: RF Downstream Interface 16
+IF-MIB::ifDescr.64 = STRING: RF Downstream Interface 17
+IF-MIB::ifDescr.65 = STRING: RF Downstream Interface 18
+IF-MIB::ifDescr.66 = STRING: RF Downstream Interface 19
+IF-MIB::ifDescr.67 = STRING: RF Downstream Interface 20
+IF-MIB::ifDescr.68 = STRING: RF Downstream Interface 21
+IF-MIB::ifDescr.69 = STRING: RF Downstream Interface 22
+IF-MIB::ifDescr.70 = STRING: RF Downstream Interface 23
+IF-MIB::ifDescr.80 = STRING: RF Upstream Interface 1
+IF-MIB::ifDescr.81 = STRING: RF Upstream Interface 2
+IF-MIB::ifDescr.82 = STRING: RF Upstream Interface 3
+IF-MIB::ifType.1 = INTEGER: other(1)
+IF-MIB::ifType.2 = INTEGER: docsCableMaclayer(127)
+IF-MIB::ifType.3 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.4 = INTEGER: docsCableUpstream(129)
+IF-MIB::ifType.16 = INTEGER: other(1)
+IF-MIB::ifType.48 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.49 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.50 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.51 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.52 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.53 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.54 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.55 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.56 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.57 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.58 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.59 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.60 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.61 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.62 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.63 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.64 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.65 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.66 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.67 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.68 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.69 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.70 = INTEGER: docsCableDownstream(128)
+IF-MIB::ifType.80 = INTEGER: docsCableUpstream(129)
+IF-MIB::ifType.81 = INTEGER: docsCableUpstream(129)
+IF-MIB::ifType.82 = INTEGER: docsCableUpstream(129)
+IF-MIB::ifMtu.1 = INTEGER: 0
+IF-MIB::ifMtu.2 = INTEGER: 1500
+IF-MIB::ifMtu.3 = INTEGER: 1764
+IF-MIB::ifMtu.4 = INTEGER: 1764
+IF-MIB::ifMtu.16 = INTEGER: 0
+IF-MIB::ifMtu.48 = INTEGER: 1764
+IF-MIB::ifMtu.49 = INTEGER: 1764
+IF-MIB::ifMtu.50 = INTEGER: 1764
+IF-MIB::ifMtu.51 = INTEGER: 1764
+IF-MIB::ifMtu.52 = INTEGER: 1764
+IF-MIB::ifMtu.53 = INTEGER: 1764
+IF-MIB::ifMtu.54 = INTEGER: 1764
+IF-MIB::ifMtu.55 = INTEGER: 1764
+IF-MIB::ifMtu.56 = INTEGER: 1764
+IF-MIB::ifMtu.57 = INTEGER: 1764
+IF-MIB::ifMtu.58 = INTEGER: 1764
+IF-MIB::ifMtu.59 = INTEGER: 1764
+IF-MIB::ifMtu.60 = INTEGER: 1764
+IF-MIB::ifMtu.61 = INTEGER: 1764
+IF-MIB::ifMtu.62 = INTEGER: 1764
+IF-MIB::ifMtu.63 = INTEGER: 1764
+IF-MIB::ifMtu.64 = INTEGER: 1764
+IF-MIB::ifMtu.65 = INTEGER: 1764
+IF-MIB::ifMtu.66 = INTEGER: 1764
+IF-MIB::ifMtu.67 = INTEGER: 1764
+IF-MIB::ifMtu.68 = INTEGER: 1764
+IF-MIB::ifMtu.69 = INTEGER: 1764
+IF-MIB::ifMtu.70 = INTEGER: 1764
+IF-MIB::ifMtu.80 = INTEGER: 1764
+IF-MIB::ifMtu.81 = INTEGER: 1764
+IF-MIB::ifMtu.82 = INTEGER: 1764
+IF-MIB::ifSpeed.1 = Gauge32: 0
+IF-MIB::ifSpeed.2 = Gauge32: 0
+IF-MIB::ifSpeed.3 = Gauge32: 55616000
+IF-MIB::ifSpeed.4 = Gauge32: 30720000
+IF-MIB::ifSpeed.16 = Gauge32: 0
+IF-MIB::ifSpeed.48 = Gauge32: 41712000
+IF-MIB::ifSpeed.49 = Gauge32: 41712000
+IF-MIB::ifSpeed.50 = Gauge32: 41712000
+IF-MIB::ifSpeed.51 = Gauge32: 41712000
+IF-MIB::ifSpeed.52 = Gauge32: 41712000
+IF-MIB::ifSpeed.53 = Gauge32: 41712000
+IF-MIB::ifSpeed.54 = Gauge32: 41712000
+IF-MIB::ifSpeed.55 = Gauge32: 41712000
+IF-MIB::ifSpeed.56 = Gauge32: 41712000
+IF-MIB::ifSpeed.57 = Gauge32: 41712000
+IF-MIB::ifSpeed.58 = Gauge32: 41712000
+IF-MIB::ifSpeed.59 = Gauge32: 41712000
+IF-MIB::ifSpeed.60 = Gauge32: 55616000
+IF-MIB::ifSpeed.61 = Gauge32: 55616000
+IF-MIB::ifSpeed.62 = Gauge32: 55616000
+IF-MIB::ifSpeed.63 = Gauge32: 55616000
+IF-MIB::ifSpeed.64 = Gauge32: 55616000
+IF-MIB::ifSpeed.65 = Gauge32: 55616000
+IF-MIB::ifSpeed.66 = Gauge32: 55616000
+IF-MIB::ifSpeed.67 = Gauge32: 55616000
+IF-MIB::ifSpeed.68 = Gauge32: 55616000
+IF-MIB::ifSpeed.69 = Gauge32: 55616000
+IF-MIB::ifSpeed.70 = Gauge32: 55616000
+IF-MIB::ifSpeed.80 = Gauge32: 25600000
+IF-MIB::ifSpeed.81 = Gauge32: 30720000
+IF-MIB::ifSpeed.82 = Gauge32: 30720000
+IF-MIB::ifPhysAddress.1 = STRING: 78:23:ae:89:c1:f7
+IF-MIB::ifPhysAddress.2 = STRING: 78:23:ae:89:c1:f5
+IF-MIB::ifPhysAddress.3 = STRING: 
+IF-MIB::ifPhysAddress.4 = STRING: 
+IF-MIB::ifPhysAddress.16 = STRING: 78:23:ae:89:c1:f6
+IF-MIB::ifPhysAddress.48 = STRING: 
+IF-MIB::ifPhysAddress.49 = STRING: 
+IF-MIB::ifPhysAddress.50 = STRING: 
+IF-MIB::ifPhysAddress.51 = STRING: 
+IF-MIB::ifPhysAddress.52 = STRING: 
+IF-MIB::ifPhysAddress.53 = STRING: 
+IF-MIB::ifPhysAddress.54 = STRING: 
+IF-MIB::ifPhysAddress.55 = STRING: 
+IF-MIB::ifPhysAddress.56 = STRING: 
+IF-MIB::ifPhysAddress.57 = STRING: 
+IF-MIB::ifPhysAddress.58 = STRING: 
+IF-MIB::ifPhysAddress.59 = STRING: 
+IF-MIB::ifPhysAddress.60 = STRING: 
+IF-MIB::ifPhysAddress.61 = STRING: 
+IF-MIB::ifPhysAddress.62 = STRING: 
+IF-MIB::ifPhysAddress.63 = STRING: 
+IF-MIB::ifPhysAddress.64 = STRING: 
+IF-MIB::ifPhysAddress.65 = STRING: 
+IF-MIB::ifPhysAddress.66 = STRING: 
+IF-MIB::ifPhysAddress.67 = STRING: 
+IF-MIB::ifPhysAddress.68 = STRING: 
+IF-MIB::ifPhysAddress.69 = STRING: 
+IF-MIB::ifPhysAddress.70 = STRING: 
+IF-MIB::ifPhysAddress.80 = STRING: 
+IF-MIB::ifPhysAddress.81 = STRING: 
+IF-MIB::ifPhysAddress.82 = STRING: 
+IF-MIB::ifAdminStatus.1 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.2 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.3 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.4 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.16 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.48 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.49 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.50 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.51 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.52 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.53 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.54 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.55 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.56 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.57 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.58 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.59 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.60 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.61 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.62 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.63 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.64 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.65 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.66 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.67 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.68 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.69 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.70 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.80 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.81 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.82 = INTEGER: up(1)
+IF-MIB::ifOperStatus.1 = INTEGER: down(2)
+IF-MIB::ifOperStatus.2 = INTEGER: up(1)
+IF-MIB::ifOperStatus.3 = INTEGER: up(1)
+IF-MIB::ifOperStatus.4 = INTEGER: up(1)
+IF-MIB::ifOperStatus.16 = INTEGER: up(1)
+IF-MIB::ifOperStatus.48 = INTEGER: up(1)
+IF-MIB::ifOperStatus.49 = INTEGER: up(1)
+IF-MIB::ifOperStatus.50 = INTEGER: up(1)
+IF-MIB::ifOperStatus.51 = INTEGER: up(1)
+IF-MIB::ifOperStatus.52 = INTEGER: up(1)
+IF-MIB::ifOperStatus.53 = INTEGER: up(1)
+IF-MIB::ifOperStatus.54 = INTEGER: up(1)
+IF-MIB::ifOperStatus.55 = INTEGER: up(1)
+IF-MIB::ifOperStatus.56 = INTEGER: up(1)
+IF-MIB::ifOperStatus.57 = INTEGER: up(1)
+IF-MIB::ifOperStatus.58 = INTEGER: up(1)
+IF-MIB::ifOperStatus.59 = INTEGER: up(1)
+IF-MIB::ifOperStatus.60 = INTEGER: up(1)
+IF-MIB::ifOperStatus.61 = INTEGER: up(1)
+IF-MIB::ifOperStatus.62 = INTEGER: up(1)
+IF-MIB::ifOperStatus.63 = INTEGER: up(1)
+IF-MIB::ifOperStatus.64 = INTEGER: up(1)
+IF-MIB::ifOperStatus.65 = INTEGER: up(1)
+IF-MIB::ifOperStatus.66 = INTEGER: up(1)
+IF-MIB::ifOperStatus.67 = INTEGER: up(1)
+IF-MIB::ifOperStatus.68 = INTEGER: up(1)
+IF-MIB::ifOperStatus.69 = INTEGER: up(1)
+IF-MIB::ifOperStatus.70 = INTEGER: up(1)
+IF-MIB::ifOperStatus.80 = INTEGER: up(1)
+IF-MIB::ifOperStatus.81 = INTEGER: up(1)
+IF-MIB::ifOperStatus.82 = INTEGER: up(1)
+IF-MIB::ifLastChange.1 = Timeticks: (8013) 0:01:20.13
+IF-MIB::ifLastChange.2 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.3 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.4 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.16 = Timeticks: (8322) 0:01:23.22
+IF-MIB::ifLastChange.48 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.49 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.50 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.51 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.52 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.53 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.54 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.55 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.56 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.57 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.58 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.59 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.60 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.61 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.62 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.63 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.64 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.65 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.66 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.67 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.68 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.69 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.70 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.80 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.81 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.82 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifInOctets.1 = Counter32: 1057991
+IF-MIB::ifInOctets.2 = Counter32: 68209
+IF-MIB::ifInOctets.3 = Counter32: 17354047
+IF-MIB::ifInOctets.4 = Counter32: 0
+IF-MIB::ifInOctets.16 = Counter32: 75515
+IF-MIB::ifInOctets.48 = Counter32: 39518
+IF-MIB::ifInOctets.49 = Counter32: 40020
+IF-MIB::ifInOctets.50 = Counter32: 41311
+IF-MIB::ifInOctets.51 = Counter32: 41161
+IF-MIB::ifInOctets.52 = Counter32: 41166
+IF-MIB::ifInOctets.53 = Counter32: 41358
+IF-MIB::ifInOctets.54 = Counter32: 39615
+IF-MIB::ifInOctets.55 = Counter32: 41974
+IF-MIB::ifInOctets.56 = Counter32: 41453
+IF-MIB::ifInOctets.57 = Counter32: 40201
+IF-MIB::ifInOctets.58 = Counter32: 39716
+IF-MIB::ifInOctets.59 = Counter32: 41514
+IF-MIB::ifInOctets.60 = Counter32: 42651
+IF-MIB::ifInOctets.61 = Counter32: 44282
+IF-MIB::ifInOctets.62 = Counter32: 42858
+IF-MIB::ifInOctets.63 = Counter32: 44811
+IF-MIB::ifInOctets.64 = Counter32: 39699
+IF-MIB::ifInOctets.65 = Counter32: 44087
+IF-MIB::ifInOctets.66 = Counter32: 42467
+IF-MIB::ifInOctets.67 = Counter32: 41571
+IF-MIB::ifInOctets.68 = Counter32: 43600
+IF-MIB::ifInOctets.69 = Counter32: 38875
+IF-MIB::ifInOctets.70 = Counter32: 41669
+IF-MIB::ifInOctets.80 = Counter32: 0
+IF-MIB::ifInOctets.81 = Counter32: 0
+IF-MIB::ifInOctets.82 = Counter32: 0
+IF-MIB::ifInUcastPkts.1 = Counter32: 0
+IF-MIB::ifInUcastPkts.2 = Counter32: 705
+IF-MIB::ifInUcastPkts.3 = Counter32: 0
+IF-MIB::ifInUcastPkts.4 = Counter32: 0
+IF-MIB::ifInUcastPkts.16 = Counter32: 0
+IF-MIB::ifInUcastPkts.48 = Counter32: 0
+IF-MIB::ifInUcastPkts.49 = Counter32: 0
+IF-MIB::ifInUcastPkts.50 = Counter32: 0
+IF-MIB::ifInUcastPkts.51 = Counter32: 0
+IF-MIB::ifInUcastPkts.52 = Counter32: 0
+IF-MIB::ifInUcastPkts.53 = Counter32: 0
+IF-MIB::ifInUcastPkts.54 = Counter32: 0
+IF-MIB::ifInUcastPkts.55 = Counter32: 0
+IF-MIB::ifInUcastPkts.56 = Counter32: 0
+IF-MIB::ifInUcastPkts.57 = Counter32: 0
+IF-MIB::ifInUcastPkts.58 = Counter32: 0
+IF-MIB::ifInUcastPkts.59 = Counter32: 0
+IF-MIB::ifInUcastPkts.60 = Counter32: 0
+IF-MIB::ifInUcastPkts.61 = Counter32: 0
+IF-MIB::ifInUcastPkts.62 = Counter32: 0
+IF-MIB::ifInUcastPkts.63 = Counter32: 0
+IF-MIB::ifInUcastPkts.64 = Counter32: 0
+IF-MIB::ifInUcastPkts.65 = Counter32: 0
+IF-MIB::ifInUcastPkts.66 = Counter32: 0
+IF-MIB::ifInUcastPkts.67 = Counter32: 0
+IF-MIB::ifInUcastPkts.68 = Counter32: 0
+IF-MIB::ifInUcastPkts.69 = Counter32: 0
+IF-MIB::ifInUcastPkts.70 = Counter32: 0
+IF-MIB::ifInUcastPkts.80 = Counter32: 0
+IF-MIB::ifInUcastPkts.81 = Counter32: 0
+IF-MIB::ifInUcastPkts.82 = Counter32: 0
+IF-MIB::ifInDiscards.1 = Counter32: 0
+IF-MIB::ifInDiscards.2 = Counter32: 0
+IF-MIB::ifInDiscards.3 = Counter32: 0
+IF-MIB::ifInDiscards.4 = Counter32: 0
+IF-MIB::ifInDiscards.16 = Counter32: 0
+IF-MIB::ifInDiscards.48 = Counter32: 0
+IF-MIB::ifInDiscards.49 = Counter32: 0
+IF-MIB::ifInDiscards.50 = Counter32: 0
+IF-MIB::ifInDiscards.51 = Counter32: 0
+IF-MIB::ifInDiscards.52 = Counter32: 0
+IF-MIB::ifInDiscards.53 = Counter32: 0
+IF-MIB::ifInDiscards.54 = Counter32: 0
+IF-MIB::ifInDiscards.55 = Counter32: 0
+IF-MIB::ifInDiscards.56 = Counter32: 0
+IF-MIB::ifInDiscards.57 = Counter32: 0
+IF-MIB::ifInDiscards.58 = Counter32: 0
+IF-MIB::ifInDiscards.59 = Counter32: 0
+IF-MIB::ifInDiscards.60 = Counter32: 0
+IF-MIB::ifInDiscards.61 = Counter32: 0
+IF-MIB::ifInDiscards.62 = Counter32: 0
+IF-MIB::ifInDiscards.63 = Counter32: 0
+IF-MIB::ifInDiscards.64 = Counter32: 0
+IF-MIB::ifInDiscards.65 = Counter32: 0
+IF-MIB::ifInDiscards.66 = Counter32: 0
+IF-MIB::ifInDiscards.67 = Counter32: 0
+IF-MIB::ifInDiscards.68 = Counter32: 0
+IF-MIB::ifInDiscards.69 = Counter32: 0
+IF-MIB::ifInDiscards.70 = Counter32: 0
+IF-MIB::ifInDiscards.80 = Counter32: 0
+IF-MIB::ifInDiscards.81 = Counter32: 0
+IF-MIB::ifInDiscards.82 = Counter32: 0
+IF-MIB::ifInErrors.1 = Counter32: 0
+IF-MIB::ifInErrors.2 = Counter32: 0
+IF-MIB::ifInErrors.3 = Counter32: 0
+IF-MIB::ifInErrors.4 = Counter32: 0
+IF-MIB::ifInErrors.16 = Counter32: 0
+IF-MIB::ifInErrors.48 = Counter32: 0
+IF-MIB::ifInErrors.49 = Counter32: 0
+IF-MIB::ifInErrors.50 = Counter32: 0
+IF-MIB::ifInErrors.51 = Counter32: 0
+IF-MIB::ifInErrors.52 = Counter32: 0
+IF-MIB::ifInErrors.53 = Counter32: 0
+IF-MIB::ifInErrors.54 = Counter32: 0
+IF-MIB::ifInErrors.55 = Counter32: 0
+IF-MIB::ifInErrors.56 = Counter32: 0
+IF-MIB::ifInErrors.57 = Counter32: 0
+IF-MIB::ifInErrors.58 = Counter32: 0
+IF-MIB::ifInErrors.59 = Counter32: 0
+IF-MIB::ifInErrors.60 = Counter32: 0
+IF-MIB::ifInErrors.61 = Counter32: 0
+IF-MIB::ifInErrors.62 = Counter32: 0
+IF-MIB::ifInErrors.63 = Counter32: 0
+IF-MIB::ifInErrors.64 = Counter32: 0
+IF-MIB::ifInErrors.65 = Counter32: 0
+IF-MIB::ifInErrors.66 = Counter32: 0
+IF-MIB::ifInErrors.67 = Counter32: 0
+IF-MIB::ifInErrors.68 = Counter32: 0
+IF-MIB::ifInErrors.69 = Counter32: 0
+IF-MIB::ifInErrors.70 = Counter32: 0
+IF-MIB::ifInErrors.80 = Counter32: 0
+IF-MIB::ifInErrors.81 = Counter32: 0
+IF-MIB::ifInErrors.82 = Counter32: 0
+IF-MIB::ifInUnknownProtos.1 = Counter32: 0
+IF-MIB::ifInUnknownProtos.2 = Counter32: 0
+IF-MIB::ifInUnknownProtos.3 = Counter32: 0
+IF-MIB::ifInUnknownProtos.4 = Counter32: 0
+IF-MIB::ifInUnknownProtos.16 = Counter32: 0
+IF-MIB::ifInUnknownProtos.48 = Counter32: 0
+IF-MIB::ifInUnknownProtos.49 = Counter32: 0
+IF-MIB::ifInUnknownProtos.50 = Counter32: 0
+IF-MIB::ifInUnknownProtos.51 = Counter32: 0
+IF-MIB::ifInUnknownProtos.52 = Counter32: 0
+IF-MIB::ifInUnknownProtos.53 = Counter32: 0
+IF-MIB::ifInUnknownProtos.54 = Counter32: 0
+IF-MIB::ifInUnknownProtos.55 = Counter32: 0
+IF-MIB::ifInUnknownProtos.56 = Counter32: 0
+IF-MIB::ifInUnknownProtos.57 = Counter32: 0
+IF-MIB::ifInUnknownProtos.58 = Counter32: 0
+IF-MIB::ifInUnknownProtos.59 = Counter32: 0
+IF-MIB::ifInUnknownProtos.60 = Counter32: 0
+IF-MIB::ifInUnknownProtos.61 = Counter32: 0
+IF-MIB::ifInUnknownProtos.62 = Counter32: 0
+IF-MIB::ifInUnknownProtos.63 = Counter32: 0
+IF-MIB::ifInUnknownProtos.64 = Counter32: 0
+IF-MIB::ifInUnknownProtos.65 = Counter32: 0
+IF-MIB::ifInUnknownProtos.66 = Counter32: 0
+IF-MIB::ifInUnknownProtos.67 = Counter32: 0
+IF-MIB::ifInUnknownProtos.68 = Counter32: 0
+IF-MIB::ifInUnknownProtos.69 = Counter32: 0
+IF-MIB::ifInUnknownProtos.70 = Counter32: 0
+IF-MIB::ifInUnknownProtos.80 = Counter32: 0
+IF-MIB::ifInUnknownProtos.81 = Counter32: 0
+IF-MIB::ifInUnknownProtos.82 = Counter32: 0
+IF-MIB::ifOutOctets.1 = Counter32: 1180452
+IF-MIB::ifOutOctets.2 = Counter32: 1288865
+IF-MIB::ifOutOctets.3 = Counter32: 0
+IF-MIB::ifOutOctets.4 = Counter32: 557297
+IF-MIB::ifOutOctets.16 = Counter32: 326756
+IF-MIB::ifOutOctets.48 = Counter32: 0
+IF-MIB::ifOutOctets.49 = Counter32: 0
+IF-MIB::ifOutOctets.50 = Counter32: 0
+IF-MIB::ifOutOctets.51 = Counter32: 0
+IF-MIB::ifOutOctets.52 = Counter32: 0
+IF-MIB::ifOutOctets.53 = Counter32: 0
+IF-MIB::ifOutOctets.54 = Counter32: 0
+IF-MIB::ifOutOctets.55 = Counter32: 0
+IF-MIB::ifOutOctets.56 = Counter32: 0
+IF-MIB::ifOutOctets.57 = Counter32: 0
+IF-MIB::ifOutOctets.58 = Counter32: 0
+IF-MIB::ifOutOctets.59 = Counter32: 0
+IF-MIB::ifOutOctets.60 = Counter32: 0
+IF-MIB::ifOutOctets.61 = Counter32: 0
+IF-MIB::ifOutOctets.62 = Counter32: 0
+IF-MIB::ifOutOctets.63 = Counter32: 0
+IF-MIB::ifOutOctets.64 = Counter32: 0
+IF-MIB::ifOutOctets.65 = Counter32: 0
+IF-MIB::ifOutOctets.66 = Counter32: 0
+IF-MIB::ifOutOctets.67 = Counter32: 0
+IF-MIB::ifOutOctets.68 = Counter32: 0
+IF-MIB::ifOutOctets.69 = Counter32: 0
+IF-MIB::ifOutOctets.70 = Counter32: 0
+IF-MIB::ifOutOctets.80 = Counter32: 522164
+IF-MIB::ifOutOctets.81 = Counter32: 512076
+IF-MIB::ifOutOctets.82 = Counter32: 526199
+IF-MIB::ifOutUcastPkts.1 = Counter32: 0
+IF-MIB::ifOutUcastPkts.2 = Counter32: 16156
+IF-MIB::ifOutUcastPkts.3 = Counter32: 0
+IF-MIB::ifOutUcastPkts.4 = Counter32: 0
+IF-MIB::ifOutUcastPkts.16 = Counter32: 0
+IF-MIB::ifOutUcastPkts.48 = Counter32: 0
+IF-MIB::ifOutUcastPkts.49 = Counter32: 0
+IF-MIB::ifOutUcastPkts.50 = Counter32: 0
+IF-MIB::ifOutUcastPkts.51 = Counter32: 0
+IF-MIB::ifOutUcastPkts.52 = Counter32: 0
+IF-MIB::ifOutUcastPkts.53 = Counter32: 0
+IF-MIB::ifOutUcastPkts.54 = Counter32: 0
+IF-MIB::ifOutUcastPkts.55 = Counter32: 0
+IF-MIB::ifOutUcastPkts.56 = Counter32: 0
+IF-MIB::ifOutUcastPkts.57 = Counter32: 0
+IF-MIB::ifOutUcastPkts.58 = Counter32: 0
+IF-MIB::ifOutUcastPkts.59 = Counter32: 0
+IF-MIB::ifOutUcastPkts.60 = Counter32: 0
+IF-MIB::ifOutUcastPkts.61 = Counter32: 0
+IF-MIB::ifOutUcastPkts.62 = Counter32: 0
+IF-MIB::ifOutUcastPkts.63 = Counter32: 0
+IF-MIB::ifOutUcastPkts.64 = Counter32: 0
+IF-MIB::ifOutUcastPkts.65 = Counter32: 0
+IF-MIB::ifOutUcastPkts.66 = Counter32: 0
+IF-MIB::ifOutUcastPkts.67 = Counter32: 0
+IF-MIB::ifOutUcastPkts.68 = Counter32: 0
+IF-MIB::ifOutUcastPkts.69 = Counter32: 0
+IF-MIB::ifOutUcastPkts.70 = Counter32: 0
+IF-MIB::ifOutUcastPkts.80 = Counter32: 0
+IF-MIB::ifOutUcastPkts.81 = Counter32: 0
+IF-MIB::ifOutUcastPkts.82 = Counter32: 0
+IF-MIB::ifOutDiscards.1 = Counter32: 0
+IF-MIB::ifOutDiscards.2 = Counter32: 0
+IF-MIB::ifOutDiscards.3 = Counter32: 0
+IF-MIB::ifOutDiscards.4 = Counter32: 0
+IF-MIB::ifOutDiscards.16 = Counter32: 0
+IF-MIB::ifOutDiscards.48 = Counter32: 0
+IF-MIB::ifOutDiscards.49 = Counter32: 0
+IF-MIB::ifOutDiscards.50 = Counter32: 0
+IF-MIB::ifOutDiscards.51 = Counter32: 0
+IF-MIB::ifOutDiscards.52 = Counter32: 0
+IF-MIB::ifOutDiscards.53 = Counter32: 0
+IF-MIB::ifOutDiscards.54 = Counter32: 0
+IF-MIB::ifOutDiscards.55 = Counter32: 0
+IF-MIB::ifOutDiscards.56 = Counter32: 0
+IF-MIB::ifOutDiscards.57 = Counter32: 0
+IF-MIB::ifOutDiscards.58 = Counter32: 0
+IF-MIB::ifOutDiscards.59 = Counter32: 0
+IF-MIB::ifOutDiscards.60 = Counter32: 0
+IF-MIB::ifOutDiscards.61 = Counter32: 0
+IF-MIB::ifOutDiscards.62 = Counter32: 0
+IF-MIB::ifOutDiscards.63 = Counter32: 0
+IF-MIB::ifOutDiscards.64 = Counter32: 0
+IF-MIB::ifOutDiscards.65 = Counter32: 0
+IF-MIB::ifOutDiscards.66 = Counter32: 0
+IF-MIB::ifOutDiscards.67 = Counter32: 0
+IF-MIB::ifOutDiscards.68 = Counter32: 0
+IF-MIB::ifOutDiscards.69 = Counter32: 0
+IF-MIB::ifOutDiscards.70 = Counter32: 0
+IF-MIB::ifOutDiscards.80 = Counter32: 0
+IF-MIB::ifOutDiscards.81 = Counter32: 0
+IF-MIB::ifOutDiscards.82 = Counter32: 0
+IF-MIB::ifOutErrors.1 = Counter32: 0
+IF-MIB::ifOutErrors.2 = Counter32: 0
+IF-MIB::ifOutErrors.3 = Counter32: 0
+IF-MIB::ifOutErrors.4 = Counter32: 0
+IF-MIB::ifOutErrors.16 = Counter32: 0
+IF-MIB::ifOutErrors.48 = Counter32: 0
+IF-MIB::ifOutErrors.49 = Counter32: 0
+IF-MIB::ifOutErrors.50 = Counter32: 0
+IF-MIB::ifOutErrors.51 = Counter32: 0
+IF-MIB::ifOutErrors.52 = Counter32: 0
+IF-MIB::ifOutErrors.53 = Counter32: 0
+IF-MIB::ifOutErrors.54 = Counter32: 0
+IF-MIB::ifOutErrors.55 = Counter32: 0
+IF-MIB::ifOutErrors.56 = Counter32: 0
+IF-MIB::ifOutErrors.57 = Counter32: 0
+IF-MIB::ifOutErrors.58 = Counter32: 0
+IF-MIB::ifOutErrors.59 = Counter32: 0
+IF-MIB::ifOutErrors.60 = Counter32: 0
+IF-MIB::ifOutErrors.61 = Counter32: 0
+IF-MIB::ifOutErrors.62 = Counter32: 0
+IF-MIB::ifOutErrors.63 = Counter32: 0
+IF-MIB::ifOutErrors.64 = Counter32: 0
+IF-MIB::ifOutErrors.65 = Counter32: 0
+IF-MIB::ifOutErrors.66 = Counter32: 0
+IF-MIB::ifOutErrors.67 = Counter32: 0
+IF-MIB::ifOutErrors.68 = Counter32: 0
+IF-MIB::ifOutErrors.69 = Counter32: 0
+IF-MIB::ifOutErrors.70 = Counter32: 0
+IF-MIB::ifOutErrors.80 = Counter32: 0
+IF-MIB::ifOutErrors.81 = Counter32: 0
+IF-MIB::ifOutErrors.82 = Counter32: 0
+
+#
+#		 docsifDownstreamChannelTable : 
+#
+
+snmpwalk -v2c -c public 10.12.159.71 1.3.6.1.2.1.10.127.1.1.1
+SNMPv2-SMI::transmission.127.1.1.1.1.1.3 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.1.48 = INTEGER: 24
+SNMPv2-SMI::transmission.127.1.1.1.1.1.49 = INTEGER: 23
+SNMPv2-SMI::transmission.127.1.1.1.1.1.50 = INTEGER: 22
+SNMPv2-SMI::transmission.127.1.1.1.1.1.51 = INTEGER: 21
+SNMPv2-SMI::transmission.127.1.1.1.1.1.52 = INTEGER: 20
+SNMPv2-SMI::transmission.127.1.1.1.1.1.53 = INTEGER: 19
+SNMPv2-SMI::transmission.127.1.1.1.1.1.54 = INTEGER: 18
+SNMPv2-SMI::transmission.127.1.1.1.1.1.55 = INTEGER: 17
+SNMPv2-SMI::transmission.127.1.1.1.1.1.56 = INTEGER: 16
+SNMPv2-SMI::transmission.127.1.1.1.1.1.57 = INTEGER: 15
+SNMPv2-SMI::transmission.127.1.1.1.1.1.58 = INTEGER: 14
+SNMPv2-SMI::transmission.127.1.1.1.1.1.59 = INTEGER: 13
+SNMPv2-SMI::transmission.127.1.1.1.1.1.60 = INTEGER: 12
+SNMPv2-SMI::transmission.127.1.1.1.1.1.61 = INTEGER: 11
+SNMPv2-SMI::transmission.127.1.1.1.1.1.62 = INTEGER: 10
+SNMPv2-SMI::transmission.127.1.1.1.1.1.63 = INTEGER: 9
+SNMPv2-SMI::transmission.127.1.1.1.1.1.64 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.1.65 = INTEGER: 7
+SNMPv2-SMI::transmission.127.1.1.1.1.1.66 = INTEGER: 6
+SNMPv2-SMI::transmission.127.1.1.1.1.1.67 = INTEGER: 5
+SNMPv2-SMI::transmission.127.1.1.1.1.1.68 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.1.69 = INTEGER: 1
+SNMPv2-SMI::transmission.127.1.1.1.1.1.70 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.2.3 = INTEGER: 562000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.48 = INTEGER: 818000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.49 = INTEGER: 810000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.50 = INTEGER: 802000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.51 = INTEGER: 794000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.52 = INTEGER: 786000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.53 = INTEGER: 778000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.54 = INTEGER: 770000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.55 = INTEGER: 762000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.56 = INTEGER: 722000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.57 = INTEGER: 714000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.58 = INTEGER: 706000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.59 = INTEGER: 698000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.60 = INTEGER: 690000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.61 = INTEGER: 682000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.62 = INTEGER: 674000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.63 = INTEGER: 666000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.64 = INTEGER: 602000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.65 = INTEGER: 594000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.66 = INTEGER: 586000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.67 = INTEGER: 578000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.68 = INTEGER: 570000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.69 = INTEGER: 546000000
+SNMPv2-SMI::transmission.127.1.1.1.1.2.70 = INTEGER: 554000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.3 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.48 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.49 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.50 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.51 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.52 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.53 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.54 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.55 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.56 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.57 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.58 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.59 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.60 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.61 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.62 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.63 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.64 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.65 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.66 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.67 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.68 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.69 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.3.70 = INTEGER: 8000000
+SNMPv2-SMI::transmission.127.1.1.1.1.4.3 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.4.48 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.49 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.50 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.51 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.52 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.53 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.54 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.55 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.56 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.57 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.58 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.59 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.4.60 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.4.61 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.4.62 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.4.63 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.4.64 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.4.65 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.4.66 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.4.67 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.4.68 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.4.69 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.4.70 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.1.1.5.3 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.48 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.49 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.50 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.51 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.52 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.53 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.54 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.55 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.56 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.57 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.58 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.59 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.60 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.61 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.62 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.63 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.64 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.65 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.66 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.67 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.68 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.69 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.5.70 = INTEGER: 8
+SNMPv2-SMI::transmission.127.1.1.1.1.6.3 = INTEGER: 34
+SNMPv2-SMI::transmission.127.1.1.1.1.6.48 = INTEGER: 35
+SNMPv2-SMI::transmission.127.1.1.1.1.6.49 = INTEGER: -25
+SNMPv2-SMI::transmission.127.1.1.1.1.6.50 = INTEGER: -19
+SNMPv2-SMI::transmission.127.1.1.1.1.6.51 = INTEGER: -17
+SNMPv2-SMI::transmission.127.1.1.1.1.6.52 = INTEGER: -17
+SNMPv2-SMI::transmission.127.1.1.1.1.6.53 = INTEGER: -25
+SNMPv2-SMI::transmission.127.1.1.1.1.6.54 = INTEGER: -24
+SNMPv2-SMI::transmission.127.1.1.1.1.6.55 = INTEGER: -25
+SNMPv2-SMI::transmission.127.1.1.1.1.6.56 = INTEGER: -27
+SNMPv2-SMI::transmission.127.1.1.1.1.6.57 = INTEGER: -32
+SNMPv2-SMI::transmission.127.1.1.1.1.6.58 = INTEGER: -34
+SNMPv2-SMI::transmission.127.1.1.1.1.6.59 = INTEGER: -37
+SNMPv2-SMI::transmission.127.1.1.1.1.6.60 = INTEGER: 22
+SNMPv2-SMI::transmission.127.1.1.1.1.6.61 = INTEGER: 20
+SNMPv2-SMI::transmission.127.1.1.1.1.6.62 = INTEGER: 19
+SNMPv2-SMI::transmission.127.1.1.1.1.6.63 = INTEGER: 22
+SNMPv2-SMI::transmission.127.1.1.1.1.6.64 = INTEGER: 34
+SNMPv2-SMI::transmission.127.1.1.1.1.6.65 = INTEGER: 35
+SNMPv2-SMI::transmission.127.1.1.1.1.6.66 = INTEGER: 35
+SNMPv2-SMI::transmission.127.1.1.1.1.6.67 = INTEGER: 34
+SNMPv2-SMI::transmission.127.1.1.1.1.6.68 = INTEGER: 32
+SNMPv2-SMI::transmission.127.1.1.1.1.6.69 = INTEGER: 29
+SNMPv2-SMI::transmission.127.1.1.1.1.6.70 = INTEGER: 30
+SNMPv2-SMI::transmission.127.1.1.1.1.7.3 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.48 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.49 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.50 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.51 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.52 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.53 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.54 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.55 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.56 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.57 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.58 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.59 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.60 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.61 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.62 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.63 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.64 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.65 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.66 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.67 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.68 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.69 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.7.70 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.1.1.8.3 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.48 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.49 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.50 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.51 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.52 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.53 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.54 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.55 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.56 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.57 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.58 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.59 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.60 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.61 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.62 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.63 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.64 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.65 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.66 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.67 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.68 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.69 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.1.1.8.70 = INTEGER: 2
+
+#
+#		 docsifUpstreamChannelTable: 
+#
+
+snmpwalk -v2c -c public 10.12.159.71 1.3.6.1.2.1.10.127.1.1.2
+SNMPv2-SMI::transmission.127.1.1.2.1.1.4 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.1.80 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.2.1.1.81 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.2.1.1.82 = INTEGER: 1
+SNMPv2-SMI::transmission.127.1.1.2.1.2.4 = INTEGER: 52200000
+SNMPv2-SMI::transmission.127.1.1.2.1.2.80 = INTEGER: 36200000
+SNMPv2-SMI::transmission.127.1.1.2.1.2.81 = INTEGER: 45800000
+SNMPv2-SMI::transmission.127.1.1.2.1.2.82 = INTEGER: 58600000
+SNMPv2-SMI::transmission.127.1.1.2.1.3.4 = INTEGER: 6400000
+SNMPv2-SMI::transmission.127.1.1.2.1.3.80 = INTEGER: 6400000
+SNMPv2-SMI::transmission.127.1.1.2.1.3.81 = INTEGER: 6400000
+SNMPv2-SMI::transmission.127.1.1.2.1.3.82 = INTEGER: 6400000
+SNMPv2-SMI::transmission.127.1.1.2.1.4.4 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.4.80 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.4.81 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.4.82 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.5.4 = Gauge32: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.5.80 = Gauge32: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.5.81 = Gauge32: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.5.82 = Gauge32: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.6.4 = Gauge32: 1278
+SNMPv2-SMI::transmission.127.1.1.2.1.6.80 = Gauge32: 5141
+SNMPv2-SMI::transmission.127.1.1.2.1.6.81 = Gauge32: 5141
+SNMPv2-SMI::transmission.127.1.1.2.1.6.82 = Gauge32: 5141
+SNMPv2-SMI::transmission.127.1.1.2.1.7.4 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.2.1.7.80 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.2.1.7.81 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.2.1.7.82 = INTEGER: 3
+SNMPv2-SMI::transmission.127.1.1.2.1.8.4 = INTEGER: 6
+SNMPv2-SMI::transmission.127.1.1.2.1.8.80 = INTEGER: 6
+SNMPv2-SMI::transmission.127.1.1.2.1.8.81 = INTEGER: 6
+SNMPv2-SMI::transmission.127.1.1.2.1.8.82 = INTEGER: 6
+SNMPv2-SMI::transmission.127.1.1.2.1.9.4 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.9.80 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.9.81 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.9.82 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.10.4 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.2.1.10.80 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.2.1.10.81 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.2.1.10.82 = INTEGER: 4
+SNMPv2-SMI::transmission.127.1.1.2.1.11.4 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.11.80 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.11.81 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.11.82 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.12.4 = INTEGER: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.12.80 = INTEGER: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.12.81 = INTEGER: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.12.82 = INTEGER: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.13.4 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.13.80 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.13.81 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.13.82 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.14.4 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.14.80 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.14.81 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.14.82 = Gauge32: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.15.4 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.15.80 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.15.81 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.15.82 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.16.4 = INTEGER: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.16.80 = INTEGER: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.16.81 = INTEGER: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.16.82 = INTEGER: 0
+SNMPv2-SMI::transmission.127.1.1.2.1.17.4 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.17.80 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.17.81 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.17.82 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.2.1.18.4 = INTEGER: 1
+SNMPv2-SMI::transmission.127.1.1.2.1.18.80 = INTEGER: 1
+SNMPv2-SMI::transmission.127.1.1.2.1.18.81 = INTEGER: 1
+SNMPv2-SMI::transmission.127.1.1.2.1.18.82 = INTEGER: 1
+SNMPv2-SMI::transmission.127.1.1.2.1.19.4 = INTEGER: 1
+SNMPv2-SMI::transmission.127.1.1.2.1.19.80 = INTEGER: 1
+SNMPv2-SMI::transmission.127.1.1.2.1.19.81 = INTEGER: 1
+SNMPv2-SMI::transmission.127.1.1.2.1.19.82 = INTEGER: 1
+
+#
+#		 docsifSignalQualityTable : 
+#
+
+snmpwalk -v2c -c public 10.12.159.71 1.3.6.1.2.1.10.127.1.1.4
+SNMPv2-SMI::transmission.127.1.1.4.1.1.3 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.48 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.49 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.50 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.51 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.52 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.53 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.54 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.55 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.56 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.57 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.58 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.59 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.60 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.61 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.62 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.63 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.64 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.65 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.66 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.67 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.68 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.69 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.1.70 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.1.4.1.2.3 = Counter32: 388415627
+SNMPv2-SMI::transmission.127.1.1.4.1.2.48 = Counter32: 646949247
+SNMPv2-SMI::transmission.127.1.1.4.1.2.49 = Counter32: 646946755
+SNMPv2-SMI::transmission.127.1.1.4.1.2.50 = Counter32: 646944241
+SNMPv2-SMI::transmission.127.1.1.4.1.2.51 = Counter32: 646936122
+SNMPv2-SMI::transmission.127.1.1.4.1.2.52 = Counter32: 646942028
+SNMPv2-SMI::transmission.127.1.1.4.1.2.53 = Counter32: 646939604
+SNMPv2-SMI::transmission.127.1.1.4.1.2.54 = Counter32: 646934270
+SNMPv2-SMI::transmission.127.1.1.4.1.2.55 = Counter32: 646931786
+SNMPv2-SMI::transmission.127.1.1.4.1.2.56 = Counter32: 289177134
+SNMPv2-SMI::transmission.127.1.1.4.1.2.57 = Counter32: 289174991
+SNMPv2-SMI::transmission.127.1.1.4.1.2.58 = Counter32: 289172916
+SNMPv2-SMI::transmission.127.1.1.4.1.2.59 = Counter32: 289170846
+SNMPv2-SMI::transmission.127.1.1.4.1.2.60 = Counter32: 385561605
+SNMPv2-SMI::transmission.127.1.1.4.1.2.61 = Counter32: 385562371
+SNMPv2-SMI::transmission.127.1.1.4.1.2.62 = Counter32: 385559680
+SNMPv2-SMI::transmission.127.1.1.4.1.2.63 = Counter32: 385556937
+SNMPv2-SMI::transmission.127.1.1.4.1.2.64 = Counter32: 385554124
+SNMPv2-SMI::transmission.127.1.1.4.1.2.65 = Counter32: 385551359
+SNMPv2-SMI::transmission.127.1.1.4.1.2.66 = Counter32: 385548665
+SNMPv2-SMI::transmission.127.1.1.4.1.2.67 = Counter32: 385545936
+SNMPv2-SMI::transmission.127.1.1.4.1.2.68 = Counter32: 385543181
+SNMPv2-SMI::transmission.127.1.1.4.1.2.69 = Counter32: 385540651
+SNMPv2-SMI::transmission.127.1.1.4.1.2.70 = Counter32: 385537897
+SNMPv2-SMI::transmission.127.1.1.4.1.3.3 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.48 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.49 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.50 = Counter32: 4
+SNMPv2-SMI::transmission.127.1.1.4.1.3.51 = Counter32: 8
+SNMPv2-SMI::transmission.127.1.1.4.1.3.52 = Counter32: 4
+SNMPv2-SMI::transmission.127.1.1.4.1.3.53 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.54 = Counter32: 4
+SNMPv2-SMI::transmission.127.1.1.4.1.3.55 = Counter32: 3
+SNMPv2-SMI::transmission.127.1.1.4.1.3.56 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.57 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.58 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.59 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.60 = Counter32: 1
+SNMPv2-SMI::transmission.127.1.1.4.1.3.61 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.62 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.63 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.64 = Counter32: 6
+SNMPv2-SMI::transmission.127.1.1.4.1.3.65 = Counter32: 8
+SNMPv2-SMI::transmission.127.1.1.4.1.3.66 = Counter32: 7
+SNMPv2-SMI::transmission.127.1.1.4.1.3.67 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.3.68 = Counter32: 4
+SNMPv2-SMI::transmission.127.1.1.4.1.3.69 = Counter32: 4
+SNMPv2-SMI::transmission.127.1.1.4.1.3.70 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.3 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.48 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.49 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.50 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.51 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.52 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.53 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.54 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.55 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.56 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.57 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.58 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.59 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.60 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.61 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.62 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.63 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.64 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.65 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.66 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.67 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.68 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.69 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.4.70 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.5.3 = INTEGER: 403
+SNMPv2-SMI::transmission.127.1.1.4.1.5.48 = INTEGER: 433
+SNMPv2-SMI::transmission.127.1.1.4.1.5.49 = INTEGER: 375
+SNMPv2-SMI::transmission.127.1.1.4.1.5.50 = INTEGER: 385
+SNMPv2-SMI::transmission.127.1.1.4.1.5.51 = INTEGER: 385
+SNMPv2-SMI::transmission.127.1.1.4.1.5.52 = INTEGER: 389
+SNMPv2-SMI::transmission.127.1.1.4.1.5.53 = INTEGER: 375
+SNMPv2-SMI::transmission.127.1.1.4.1.5.54 = INTEGER: 375
+SNMPv2-SMI::transmission.127.1.1.4.1.5.55 = INTEGER: 375
+SNMPv2-SMI::transmission.127.1.1.4.1.5.56 = INTEGER: 375
+SNMPv2-SMI::transmission.127.1.1.4.1.5.57 = INTEGER: 373
+SNMPv2-SMI::transmission.127.1.1.4.1.5.58 = INTEGER: 373
+SNMPv2-SMI::transmission.127.1.1.4.1.5.59 = INTEGER: 373
+SNMPv2-SMI::transmission.127.1.1.4.1.5.60 = INTEGER: 409
+SNMPv2-SMI::transmission.127.1.1.4.1.5.61 = INTEGER: 409
+SNMPv2-SMI::transmission.127.1.1.4.1.5.62 = INTEGER: 409
+SNMPv2-SMI::transmission.127.1.1.4.1.5.63 = INTEGER: 409
+SNMPv2-SMI::transmission.127.1.1.4.1.5.64 = INTEGER: 409
+SNMPv2-SMI::transmission.127.1.1.4.1.5.65 = INTEGER: 409
+SNMPv2-SMI::transmission.127.1.1.4.1.5.66 = INTEGER: 409
+SNMPv2-SMI::transmission.127.1.1.4.1.5.67 = INTEGER: 409
+SNMPv2-SMI::transmission.127.1.1.4.1.5.68 = INTEGER: 403
+SNMPv2-SMI::transmission.127.1.1.4.1.5.69 = INTEGER: 403
+SNMPv2-SMI::transmission.127.1.1.4.1.5.70 = INTEGER: 403
+SNMPv2-SMI::transmission.127.1.1.4.1.6.3 = INTEGER: 38
+SNMPv2-SMI::transmission.127.1.1.4.1.6.48 = INTEGER: 42
+SNMPv2-SMI::transmission.127.1.1.4.1.6.49 = INTEGER: 44
+SNMPv2-SMI::transmission.127.1.1.4.1.6.50 = INTEGER: 39
+SNMPv2-SMI::transmission.127.1.1.4.1.6.51 = INTEGER: 40
+SNMPv2-SMI::transmission.127.1.1.4.1.6.52 = INTEGER: 42
+SNMPv2-SMI::transmission.127.1.1.4.1.6.53 = INTEGER: 41
+SNMPv2-SMI::transmission.127.1.1.4.1.6.54 = INTEGER: 40
+SNMPv2-SMI::transmission.127.1.1.4.1.6.55 = INTEGER: 35
+SNMPv2-SMI::transmission.127.1.1.4.1.6.56 = INTEGER: 41
+SNMPv2-SMI::transmission.127.1.1.4.1.6.57 = INTEGER: 34
+SNMPv2-SMI::transmission.127.1.1.4.1.6.58 = INTEGER: 31
+SNMPv2-SMI::transmission.127.1.1.4.1.6.59 = INTEGER: 40
+SNMPv2-SMI::transmission.127.1.1.4.1.6.60 = INTEGER: 38
+SNMPv2-SMI::transmission.127.1.1.4.1.6.61 = INTEGER: 38
+SNMPv2-SMI::transmission.127.1.1.4.1.6.62 = INTEGER: 39
+SNMPv2-SMI::transmission.127.1.1.4.1.6.63 = INTEGER: 39
+SNMPv2-SMI::transmission.127.1.1.4.1.6.64 = INTEGER: 42
+SNMPv2-SMI::transmission.127.1.1.4.1.6.65 = INTEGER: 42
+SNMPv2-SMI::transmission.127.1.1.4.1.6.66 = INTEGER: 41
+SNMPv2-SMI::transmission.127.1.1.4.1.6.67 = INTEGER: 41
+SNMPv2-SMI::transmission.127.1.1.4.1.6.68 = INTEGER: 38
+SNMPv2-SMI::transmission.127.1.1.4.1.6.69 = INTEGER: 39
+SNMPv2-SMI::transmission.127.1.1.4.1.6.70 = INTEGER: 41
+SNMPv2-SMI::transmission.127.1.1.4.1.7.3 = Hex-STRING: 08 01 08 20 00 63 00 5C FF 3C FF B8 00 E4 00 5D 
+00 32 FF 95 00 54 00 5F FF EC FF 56 00 3E 01 5E 
+00 00 00 00 01 54 FD D5 00 E3 00 E0 FF E9 FF 5B 
+00 1C 00 63 00 CB FF AD FF 1E 00 14 00 70 FF DF 
+FF E1 00 0C 00 20 FF D5 FF F2 00 17 00 12 FF E9 
+FF EB FF E3 FF F3 FF E1 00 14 FF EE 00 20 FF EE 
+FF F1 FF F6 00 21 00 24 00 0B 00 16 00 1D FF E7 
+FF DA FF F6 00 2B FF E6 00 26 FF EC 00 1B 00 04 
+00 22 FF F8 00 1B FF E7 00 1C FF EC 00 0E 00 0A 
+FF FB FF E1 FF F2 FF DF 00 18 FF EF 00 0D FF E3 
+FF DA FF E0 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.48 = Hex-STRING: 08 01 08 20 00 61 00 00 FF 21 FF FC 01 0C FF FD 
+00 09 00 01 00 65 FF F5 FF A0 00 51 00 5F FF A0 
+00 00 00 00 01 22 FF DF FF E9 FF 98 00 1D 00 25 
+00 0F FF DD 00 F4 00 12 FF 19 00 0E 00 80 FF EE 
+FF B1 FF E5 00 46 00 0F FF E0 FF E0 00 1B 00 19 
+FF FF 00 0F FF E5 FF E6 FF EC FF E8 00 20 FF EF 
+FF EA FF EA 00 1F FF E0 FF FB FF FC 00 14 FF FF 
+00 07 00 12 FF F8 FF EC 00 07 FF E1 00 10 FF E1 
+00 22 FF F5 FF FD 00 03 00 1F 00 09 FF E2 FF F0 
+00 1D 00 1B FF F0 00 1C FF F8 00 1B 00 17 00 18 
+FF E7 FF DE 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.49 = Hex-STRING: 08 01 08 20 00 64 FF FB FF 4A 00 01 01 09 00 5F 
+00 18 FF E7 00 54 00 5E FF A0 FF 9F 00 11 00 69 
+00 00 00 00 00 53 FF DD 00 18 00 14 00 27 FF C0 
+00 16 00 2B 00 FF FF CE FF 12 00 22 00 6F FF EB 
+FF 9D FF FC 00 15 00 00 FF DE 00 2B 00 25 FF ED 
+FF E3 FF F6 FF F8 FF ED FF FA 00 17 00 13 FF F3 
+FF E8 00 0C 00 21 FF E4 FF EC 00 1B 00 15 00 16 
+00 0A 00 06 00 17 FF FB FF E3 FF F3 FF FA FF FA 
+00 19 FF FC FF EC 00 0D 00 0A FF F8 FF ED FF F9 
+00 07 FF E3 00 0F 00 03 00 10 FF EE 00 15 00 11 
+00 0A FF E9 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.50 = Hex-STRING: 08 01 08 20 00 5C 00 5A FF 4B FF C3 00 DF 00 5F 
+00 13 FF A3 00 5A 00 61 FF DC FF 5E 00 07 01 A0 
+00 00 00 00 FF EB FD DF 00 89 00 9B FF EA FF 58 
+00 2A 00 58 00 CB FF B4 FF 1A 00 24 00 61 FF DA 
+FF BF 00 18 00 2A FF D8 FF DA 00 1E 00 20 FF ED 
+00 0C 00 0F FF F7 FF FB FF F2 00 10 00 14 FF DC 
+FF F3 FF EE 00 0A FF E7 FF FB FF F2 00 11 FF EF 
+00 02 00 01 00 08 FF FB 00 19 00 0D FF FA FF F7 
+00 02 00 26 FF FE 00 13 FF FF 00 0A 00 00 00 10 
+00 0E FF F4 FF FC FF E8 FF DE 00 0A 00 27 FF FF 
+FF FA FF FC 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.51 = Hex-STRING: 08 01 08 20 00 65 00 14 FF 61 00 47 00 F4 FF C6 
+FF FE 00 5E 00 5B FF 98 00 05 00 DA FF 9E FE 28 
+00 00 00 00 00 20 00 C9 00 88 FE 20 FF D4 00 97 
+00 2A FF A5 00 DA 00 25 FF 33 FF E1 00 7F 00 1C 
+FF D4 FF E1 00 24 00 0D FF F4 00 09 00 0C 00 29 
+00 14 FF F0 FF E2 00 02 00 0F 00 16 00 18 FF F8 
+FF FA FF D5 00 1C FF F8 FF F0 FF ED FF ED FF F4 
+FF F4 FF EB FF F2 FF FB 00 0F 00 18 00 15 FF FD 
+00 00 FF F1 FF FC 00 11 00 13 00 06 FF F7 00 16 
+FF E0 00 12 00 0C 00 1F 00 00 FF D9 00 1A 00 16 
+00 0C FF EB 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.52 = Hex-STRING: 08 01 08 20 00 5C FF F7 FF 50 00 04 00 D7 FF FA 
+00 09 00 1F 00 5F FF FB FF AE 00 57 FF F3 FF 9E 
+00 00 00 00 FF B7 FF A4 FF FE FE DE FF F6 00 95 
+00 23 FF E1 01 1B FF FE FF 4B FF DF 00 5C 00 0B 
+FF BD FF F2 00 27 00 0A FF DD FF E3 00 1E 00 24 
+00 0F 00 20 00 22 FF F4 FF F3 FF F3 00 1D FF FB 
+00 12 00 10 00 1C 00 1B 00 22 00 1D FF F9 00 13 
+FF FE FF F6 00 1D 00 10 FF E5 00 03 00 1C 00 1C 
+FF E6 FF F4 FF FF FF FA 00 0E FF EA 00 14 FF DE 
+FF F1 00 0F FF E3 00 01 00 0F 00 08 00 1E 00 1C 
+00 05 FF E7 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.53 = Hex-STRING: 08 01 08 20 00 67 FF F5 FF 21 FF FE 00 FD 00 40 
+00 19 FF D5 00 5D 00 56 FF A2 FF A3 00 62 00 6E 
+00 00 00 00 FF 7E FE BE 00 0E FF 57 00 52 00 1C 
+FF D3 FF E2 01 16 FF E9 FF 07 00 0B 00 67 FF EB 
+FF B8 FF FB 00 24 FF F4 FF DC 00 01 00 0A FF F1 
+00 10 FF FC 00 1E 00 12 FF E5 00 24 00 04 FF F9 
+FF EE FF EE 00 23 FF E7 FF E8 00 06 FF EE 00 16 
+00 1F FF F2 FF EC 00 05 FF FE 00 18 00 15 00 18 
+00 0C FF FE 00 12 00 1F 00 1B 00 07 FF EC 00 15 
+00 18 00 2A 00 13 FF EB FF E9 00 00 FF F2 00 22 
+00 19 FF F5 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.54 = Hex-STRING: 08 01 08 20 00 5D 00 3E FF 43 FF EF 00 E3 00 3A 
+FF ED FF 98 00 55 00 61 FF 9E FF 64 00 64 01 83 
+00 00 00 00 00 09 FE 4E FF 60 00 71 00 2C FF 67 
+00 1D 00 55 00 E5 FF A0 FF 02 00 2F 00 57 FF DF 
+FF C3 00 23 00 51 FF E4 FF FC FF FF 00 13 FF F8 
+FF E6 00 10 FF FF 00 26 00 25 FF FF 00 1E 00 05 
+FF E1 00 10 00 05 FF FD FF EC FF FC 00 00 00 26 
+FF E9 00 1D 00 1F 00 03 FF F8 FF EB FF E7 00 04 
+FF FF FF E5 FF DC FF F1 00 15 FF EC FF E7 00 19 
+00 13 00 17 00 10 00 1C 00 01 FF EE 00 1C 00 0D 
+00 0E 00 0F 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.55 = Hex-STRING: 08 01 08 20 00 60 00 63 FF 20 FF B4 00 F6 00 5F 
+FF ED FF A1 00 58 00 82 FF A0 FF 38 00 68 01 E0 
+00 00 00 00 FD C7 FD 8A FE B5 01 DA 00 1F FF 2B 
+FF F8 00 9F 01 0F FF 92 FF 2F 00 48 00 8D FF C2 
+FF CA 00 20 00 13 FF EB FF E3 00 1C 00 1B FF F0 
+00 05 00 16 FF EA FF F9 FF DF 00 05 00 05 FF F9 
+FF DC 00 12 00 1D 00 0A 00 10 00 00 FF F6 00 1C 
+FF F3 FF FC FF E5 00 08 00 22 00 1D FF EA FF E7 
+00 07 00 09 00 17 00 01 00 04 FF FE 00 0C 00 14 
+00 0D 00 0A 00 0F FF F7 FF F6 00 06 00 00 00 08 
+00 06 00 1B 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.56 = Hex-STRING: 08 01 08 20 00 64 FF FC FF 32 FF BE 00 E9 00 19 
+FF DE FF B5 00 5C 00 5B FF A2 FF 9D 00 64 00 D9 
+00 00 00 00 00 17 FE DD FE C4 FF A1 00 51 FF E0 
+FF F3 00 1E 01 16 FF E0 FE EA 00 14 00 6F FF E3 
+FF C3 00 1B 00 22 FF EE FF E9 00 10 00 22 FF E5 
+FF FB 00 24 00 0A 00 15 FF EC FF F7 00 25 00 0E 
+FF DC 00 0D FF FF 00 00 FF DE 00 14 FF F5 FF E0 
+00 1E 00 16 FF F3 00 0D FF F4 00 1A 00 17 00 29 
+00 0D FF EE 00 09 FF ED 00 0D FF EA 00 07 FF FE 
+00 0F 00 05 00 1C FF F6 00 1F 00 10 00 11 00 0A 
+FF FC 00 14 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.57 = Hex-STRING: 08 01 08 20 00 78 00 2B FF 22 FF 9B 00 F5 00 5A 
+FF F8 FF 84 00 5B 00 A4 FF 98 FE DF 00 66 02 58 
+00 00 00 00 FF 6D FB 6B FF 53 01 76 00 1C FF 21 
+FF ED 00 77 01 02 FF A2 FF 1D 00 24 00 93 FF DE 
+FF 99 00 0D 00 3A FF E7 FF D3 00 19 00 0E FF DF 
+00 05 FF E6 FF EE FF DF 00 26 00 07 00 10 00 12 
+FF D9 00 00 FF EA FF EB FF DE 00 17 FF F1 FF EF 
+FF F9 FF D8 FF E1 FF FB 00 08 FF F6 FF E1 00 08 
+00 01 00 0E FF E7 00 05 FF E1 00 10 FF E7 FF D9 
+00 0D 00 26 FF F9 FF F1 00 03 FF F3 FF F1 00 16 
+00 0B FF F3 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.58 = Hex-STRING: 08 01 08 20 00 65 00 5A FF 20 FF A5 01 0D 00 62 
+00 00 FF 4C 00 5B 00 FE FF B1 FE 48 00 15 03 94 
+00 00 00 00 FE BA F9 9E 00 1B 02 E5 00 1F FE 98 
+00 28 00 E3 01 04 FF 4F FF 2A 00 6E 00 80 FF A3 
+FF A7 00 26 00 1E FF DD FF FB 00 04 00 0A FF DF 
+00 03 00 16 00 22 00 15 FF E0 FF EE FF F8 00 1A 
+FF DF FF DE FF EA FF E5 00 14 FF D9 00 03 FF EF 
+00 1B FF F1 00 2A FF F1 00 08 FF E8 FF FA 00 20 
+00 1E 00 07 FF FA FF F5 00 08 FF EC 00 10 FF FA 
+FF EE FF E6 00 09 FF D8 00 23 FF F8 00 23 FF DF 
+00 06 FF FF 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.59 = Hex-STRING: 08 01 08 20 00 69 00 1E FF 30 FF BE 00 E3 FF F5 
+00 0A FF EF 00 32 00 65 00 00 FF 9E FF A0 00 67 
+00 00 00 00 FF 6D FE E8 00 71 01 73 00 0A FF 89 
+00 1F 00 65 00 E0 FF DE FF 37 00 26 00 43 FF E1 
+FF C7 00 1C 00 22 FF F2 FF E1 00 24 00 1A 00 17 
+00 06 00 09 00 04 00 27 FF F8 FF E3 FF F9 00 06 
+FF EB FF E1 00 13 FF EA FF DB FF FB FF FA 00 0A 
+FF FC FF DF FF E7 FF FB FF DF FF E3 FF E9 00 1A 
+FF DD FF DD 00 0D 00 1C 00 05 00 07 FF E2 FF E3 
+FF E0 00 02 00 04 FF F5 FF DE FF FB 00 05 FF FC 
+FF F7 00 17 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.60 = Hex-STRING: 08 01 08 20 00 5C 00 4B FF 2D FF 91 01 18 00 65 
+00 16 FF 98 00 2B 00 69 FF AE FF 27 FF 9F 01 9E 
+00 00 00 00 FD 5E FE E1 00 7F 01 4F 00 07 FF 4C 
+00 20 00 5F 00 FE FF 98 FF 2A 00 32 00 56 FF E4 
+FF C9 00 1C 00 15 FF D3 FF FC 00 23 00 3B FF F0 
+00 1F 00 0E 00 08 FF EB FF EF 00 18 00 22 00 22 
+00 03 00 17 00 0B FF DC 00 08 FF F8 FF EE 00 0D 
+00 0E FF F3 00 1D 00 21 FF F8 FF DC FF DC 00 22 
+FF F4 00 11 00 1D 00 15 00 09 00 07 00 05 00 05 
+00 0B FF DE 00 01 00 00 00 19 FF E8 FF FA FF FC 
+FF EC FF D5 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.61 = Hex-STRING: 08 01 08 20 00 67 00 57 FF 25 FF E2 00 EB 00 6F 
+00 06 FF A4 00 39 00 AB FF A2 FF 67 00 6B 01 A2 
+00 00 00 00 FE 42 FE 26 00 20 01 23 00 0C FF 9A 
+00 01 00 69 01 01 FF A0 FF 12 00 39 00 6A FF C7 
+FF C7 00 02 00 41 FF FA FF DE 00 16 FF ED FF EA 
+FF E4 FF FA FF DB FF E7 FF F1 FF E3 00 13 00 06 
+00 23 FF EA 00 12 FF FC 00 14 FF F7 00 23 00 0A 
+00 1D FF FD 00 1E FF EB FF FB FF E7 00 17 00 1B 
+FF E3 00 0B 00 18 00 00 00 11 FF E8 00 18 00 18 
+00 06 00 13 FF F1 00 1E 00 14 00 10 FF EB FF E0 
+FF F0 FF F8 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.62 = Hex-STRING: 08 01 08 20 00 5C 00 5B FF 18 FF 9E 00 F5 00 3F 
+FF E8 FF 9B 00 2A 00 5C FF B1 FF 8E 00 5B 01 20 
+00 00 00 00 01 4A 01 28 FF 55 01 42 00 24 FF C1 
+00 1C 00 27 01 08 FF E3 FF 1D 00 23 00 7C 00 18 
+FF BA 00 19 00 3B 00 27 FF E0 00 05 00 18 00 17 
+FF F6 FF F8 00 0B 00 13 FF F5 00 09 FF ED 00 11 
+00 0F 00 17 00 02 00 1F FF FE 00 14 00 05 00 16 
+00 12 00 1D 00 0F 00 17 00 20 00 1C 00 08 00 07 
+FF F9 FF FB FF FF 00 1E 00 20 00 18 00 19 00 20 
+00 18 00 14 FF FB 00 19 00 12 00 11 00 0F 00 1E 
+00 20 00 1D 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.63 = Hex-STRING: 08 01 08 20 00 84 00 1A FF 2A FF BB 00 DD 00 16 
+FF F5 FF DB 00 63 00 06 FF 85 FF A7 00 EC 00 5E 
+00 00 00 00 00 1D 01 C1 FE E8 01 07 00 43 FF D9 
+00 26 00 06 00 F1 FF E6 FF 1A 00 15 00 9F FF FF 
+FF AF 00 2A 00 1C FF DD FF D8 00 1D 00 30 FF F8 
+FF F6 FF E5 00 19 00 00 FF FE FF E2 00 1C FF E4 
+FF D9 FF E5 FF E7 00 16 00 0B FF D7 FF F6 FF DE 
+FF FC FF C2 FF E4 00 07 FF FF FF E6 00 0E 00 0B 
+00 06 FF E2 FF FC FF F2 FF EE FF DB FF F7 FF DC 
+FF F2 FF F3 00 0D FF FB FF D9 00 24 00 05 00 11 
+FF ED FF FF 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.64 = Hex-STRING: 08 01 08 20 00 66 FF EB FF 27 FF F2 01 0E FF D8 
+00 02 00 5D 00 56 FF 9D FF 9F 00 68 FF DB FF 14 
+00 00 00 00 FF EA 00 5A 01 11 01 04 FF BE FF EB 
+00 24 FF F2 00 DF 00 1E FF 2A FF DF 00 8A FF E2 
+FF E1 00 08 00 26 FF EE 00 04 00 18 00 1E FF DB 
+00 08 00 02 FF E8 FF EB FF E2 FF E8 00 17 00 03 
+FF DA FF F3 00 16 FF EC 00 0F FF FD FF E2 00 04 
+FF FC 00 12 FF E2 00 06 00 14 FF E8 00 01 FF E7 
+00 13 00 04 FF F3 FF FF 00 21 FF EF FF FD 00 0F 
+FF E5 00 00 FF E1 FF FA 00 1A FF FE 00 22 FF FB 
+FF F7 FF E4 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.65 = Hex-STRING: 08 01 08 20 00 7F 00 1F FF 43 00 19 00 F9 00 0E 
+00 39 00 3B 00 47 00 12 FF ED FF EC FF BD 00 52 
+00 00 00 00 FF E1 FF 4B 00 E2 01 14 FF E9 FF E0 
+00 20 FF E8 00 EA FF F0 FF 1E 00 08 00 5C FF EC 
+FF A5 FF ED 00 21 FF EB FF DA FF F4 FF FE FF EB 
+FF DA FF F9 FF F3 FF F3 FF DD FF F5 FF DF FF F3 
+FF E3 FF F1 FF DE FF C1 FF E6 FF E3 00 01 FF EB 
+FF D6 FF E2 FF F6 FF E8 00 18 FF D8 FF DF FF E1 
+FF F9 FF EA FF EB FF EF FF E8 FF DE FF E5 FF E6 
+00 0A FF E8 FF E3 FF DE 00 1B FF E8 00 0C FF D4 
+00 0E FF EB 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.66 = Hex-STRING: 08 01 08 20 00 67 00 10 FF 2A FF D6 01 11 00 49 
+FF F6 FF A0 00 5D 00 4E FF A7 FF 54 FF E5 01 09 
+00 00 00 00 00 0E FE DC 00 59 01 0C 00 23 FF 90 
+00 25 00 35 00 F5 FF B4 FF 25 00 2C 00 6F FF D2 
+FF D1 00 03 00 24 FF E5 FF D5 00 06 00 11 FF EC 
+FF F3 FF F1 FF F6 FF DD 00 1F FF FA FF F2 FF FB 
+00 12 FF EB 00 13 FF FA FF FC FF EB FF F4 FF D8 
+FF EE FF E9 FF F1 FF F2 FF D4 FF F4 FF D9 FF E5 
+00 06 FF EB FF EF 00 1A FF E1 FF F5 FF FA FF DF 
+00 0A FF DE FF E5 FF EE 00 03 FF FA FF E6 00 06 
+FF E4 FF F3 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.67 = Hex-STRING: 08 01 08 20 00 76 00 51 FF 0D FF BF 01 1B 00 57 
+FF AA FF 9E 00 66 00 6B FF 97 FF 13 00 64 01 CB 
+00 00 00 00 FF 58 FF A7 FF DF 01 20 00 24 FF 51 
+00 0E 00 5A 01 11 FF D9 FF 1C 00 20 00 77 FF AC 
+FF C4 00 21 00 24 FF E8 FF EA 00 18 00 1F 00 11 
+FF ED 00 03 FF E4 FF DA FF F7 FF F0 00 24 FF F7 
+FF F7 FF F2 00 1F 00 16 00 1A FF FA FF F3 00 03 
+FF F3 FF EF 00 0B FF DF FF E0 00 19 00 09 00 0C 
+00 00 00 19 00 18 FF E7 FF EA 00 19 FF F4 00 0A 
+FF EC FF F1 FF E1 00 21 FF E1 00 1D FF D4 00 1A 
+FF F6 00 1E 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.68 = Hex-STRING: 08 01 08 20 00 67 00 53 FF 10 FF 9E 00 EB 00 60 
+FF C6 FF 95 00 64 00 66 FF 9F FF 45 00 5F 01 B3 
+00 00 00 00 FF 9D FD 88 FF ED 00 B3 00 23 FF 5D 
+00 27 00 3F 01 01 FF B5 FF 01 00 19 00 6B FF A8 
+FF A0 00 10 00 22 FF E0 FF FB 00 03 00 0D FF EB 
+FF E6 FF EF FF FB FF F4 FF EB FF EB FF F6 FF D4 
+FF EB 00 10 00 19 FF ED 00 02 FF F5 00 1E FF F0 
+FF FC FF EB 00 15 00 18 00 28 00 03 00 0D 00 18 
+00 1E 00 0A FF F2 00 22 00 1C 00 0E 00 1C 00 17 
+00 1C FF F7 FF EE FF E0 FF FC 00 02 FF DE FF FC 
+00 1E 00 19 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.69 = Hex-STRING: 08 01 08 20 00 6B 00 04 FF 43 00 07 00 F1 FF DA 
+00 3A 00 5B 00 2B FF B4 00 08 00 4B FF A3 FF A4 
+00 00 00 00 00 2E 00 27 02 51 FF 51 FF EB 00 48 
+00 20 FF C0 01 12 00 2E FF 27 FF F4 00 5C 00 24 
+FF CD FF F0 00 1A 00 08 FF DC FF E8 00 1B FF FE 
+00 20 FF ED FF F2 00 1F FF EC 00 21 00 0F FF FC 
+00 0D FF FC 00 19 FF F0 FF E1 00 19 00 1E FF DE 
+FF E4 FF FD FF F4 FF F0 00 17 00 1E FF F9 00 0C 
+FF FD FF E7 00 00 FF D1 FF F8 00 1F 00 01 FF EA 
+00 06 FF EC 00 0A 00 0D 00 10 FF E3 FF DE FF F5 
+FF E1 FF EB 
+SNMPv2-SMI::transmission.127.1.1.4.1.7.70 = Hex-STRING: 08 01 08 20 00 66 00 27 FF 1A FF D0 00 FC 00 5C 
+00 3A FF BD 00 6C 00 52 00 23 FF 9D FF 9F 00 70 
+00 00 00 00 00 23 FF D9 01 54 00 A1 FF CB FF B3 
+00 36 00 24 01 12 FF DD FF 1E 00 1D 00 93 FF D2 
+FF C6 00 1F 00 27 FF E9 FF D8 00 1D 00 0D FF F0 
+FF EB 00 06 FF F7 FF F2 FF F0 00 09 FF F9 FF ED 
+FF F4 FF E8 00 28 FF F2 00 1F FF EC 00 0C FF F5 
+00 21 FF F3 00 0D FF F6 00 10 00 03 00 1D 00 00 
+FF FA FF FA 00 09 FF FE FF F4 00 08 00 06 FF E9 
+00 1A 00 0E 00 1C FF E8 00 0D FF FB 00 0E 00 05 
+00 1C FF C4 
+SNMPv2-SMI::transmission.127.1.1.4.1.8.3 = Counter64: 388489724
+SNMPv2-SMI::transmission.127.1.1.4.1.8.48 = Counter64: 647004823
+SNMPv2-SMI::transmission.127.1.1.4.1.8.49 = Counter64: 647002332
+SNMPv2-SMI::transmission.127.1.1.4.1.8.50 = Counter64: 646999941
+SNMPv2-SMI::transmission.127.1.1.4.1.8.51 = Counter64: 646991845
+SNMPv2-SMI::transmission.127.1.1.4.1.8.52 = Counter64: 646997821
+SNMPv2-SMI::transmission.127.1.1.4.1.8.53 = Counter64: 646995372
+SNMPv2-SMI::transmission.127.1.1.4.1.8.54 = Counter64: 646990033
+SNMPv2-SMI::transmission.127.1.1.4.1.8.55 = Counter64: 646987547
+SNMPv2-SMI::transmission.127.1.1.4.1.8.56 = Counter64: 289232870
+SNMPv2-SMI::transmission.127.1.1.4.1.8.57 = Counter64: 289230831
+SNMPv2-SMI::transmission.127.1.1.4.1.8.58 = Counter64: 289228757
+SNMPv2-SMI::transmission.127.1.1.4.1.8.59 = Counter64: 289226660
+SNMPv2-SMI::transmission.127.1.1.4.1.8.60 = Counter64: 385635999
+SNMPv2-SMI::transmission.127.1.1.4.1.8.61 = Counter64: 385637034
+SNMPv2-SMI::transmission.127.1.1.4.1.8.62 = Counter64: 385634435
+SNMPv2-SMI::transmission.127.1.1.4.1.8.63 = Counter64: 385631642
+SNMPv2-SMI::transmission.127.1.1.4.1.8.64 = Counter64: 385628822
+SNMPv2-SMI::transmission.127.1.1.4.1.8.65 = Counter64: 385625994
+SNMPv2-SMI::transmission.127.1.1.4.1.8.66 = Counter64: 385623270
+SNMPv2-SMI::transmission.127.1.1.4.1.8.67 = Counter64: 385620588
+SNMPv2-SMI::transmission.127.1.1.4.1.8.68 = Counter64: 385617775
+SNMPv2-SMI::transmission.127.1.1.4.1.8.69 = Counter64: 385615147
+SNMPv2-SMI::transmission.127.1.1.4.1.8.70 = Counter64: 385612441
+SNMPv2-SMI::transmission.127.1.1.4.1.9.3 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.48 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.49 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.50 = Counter64: 4
+SNMPv2-SMI::transmission.127.1.1.4.1.9.51 = Counter64: 8
+SNMPv2-SMI::transmission.127.1.1.4.1.9.52 = Counter64: 4
+SNMPv2-SMI::transmission.127.1.1.4.1.9.53 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.54 = Counter64: 4
+SNMPv2-SMI::transmission.127.1.1.4.1.9.55 = Counter64: 3
+SNMPv2-SMI::transmission.127.1.1.4.1.9.56 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.57 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.58 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.59 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.60 = Counter64: 1
+SNMPv2-SMI::transmission.127.1.1.4.1.9.61 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.62 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.63 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.64 = Counter64: 6
+SNMPv2-SMI::transmission.127.1.1.4.1.9.65 = Counter64: 8
+SNMPv2-SMI::transmission.127.1.1.4.1.9.66 = Counter64: 7
+SNMPv2-SMI::transmission.127.1.1.4.1.9.67 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.9.68 = Counter64: 4
+SNMPv2-SMI::transmission.127.1.1.4.1.9.69 = Counter64: 4
+SNMPv2-SMI::transmission.127.1.1.4.1.9.70 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.3 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.48 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.49 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.50 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.51 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.52 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.53 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.54 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.55 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.56 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.57 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.58 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.59 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.60 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.61 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.62 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.63 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.64 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.65 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.66 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.67 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.68 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.69 = Counter64: 0
+SNMPv2-SMI::transmission.127.1.1.4.1.10.70 = Counter64: 0
+
+#
+#		 docsifCmMacTable : 
+#
+
+snmpwalk -v2c -c public 10.12.159.71 1.3.6.1.2.1.10.127.1.2.1
+SNMPv2-SMI::transmission.127.1.2.1.1.1.2 = Hex-STRING: 00 17 10 8D 92 82 
+SNMPv2-SMI::transmission.127.1.2.1.1.2.2 = STRING: "@"
+SNMPv2-SMI::transmission.127.1.2.1.1.4.2 = INTEGER: 20
+
+#
+#		 docsifCmStatusTable : 
+#
+
+snmpwalk -v2c -c public 10.12.159.71 1.3.6.1.2.1.10.127.1.2.2
+SNMPv2-SMI::transmission.127.1.2.2.1.1.2 = INTEGER: 12
+SNMPv2-SMI::transmission.127.1.2.2.1.2.2 = STRING: "D103.0"
+SNMPv2-SMI::transmission.127.1.2.2.1.3.2 = INTEGER: 410
+SNMPv2-SMI::transmission.127.1.2.2.1.4.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.5.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.6.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.7.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.8.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.9.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.10.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.11.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.12.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.13.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.14.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.15.2 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.2.2.1.16.2 = INTEGER: 2
+SNMPv2-SMI::transmission.127.1.2.2.1.17.2 = Hex-STRING: 08 01 18 00 00 00 FF FE FF FA 00 00 00 02 00 00 
+FF FC FF FE 00 04 00 04 FF F4 FF FC 00 0E FF F4 
+07 FD 00 00 00 0E FF AE 00 14 00 28 FF F8 FF EC 
+00 02 00 0E FF FE FF FA 00 00 00 04 00 00 00 00 
+00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 
+SNMPv2-SMI::transmission.127.1.2.2.1.18.2 = Counter32: 0
+SNMPv2-SMI::transmission.127.1.2.2.1.19.2 = Counter32: 0
+
+#
+#		 sysUptime: 
+#
+
+snmpwalk -v2c -c public 10.12.159.71 1.3.6.1.2.1.1.3.0
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (2549062) 7:04:50.62
+
+#
+#		 sysName: 
+#
+
+snmpwalk -v2c -c public 10.12.159.71 1.3.6.1.2.1.1.5.0
+SNMPv2-MIB::sysName.0 = STRING: TG3442DE
